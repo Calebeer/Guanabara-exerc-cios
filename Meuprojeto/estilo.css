@@ -17,7 +17,7 @@ body{
     text-align: center; /* posicionar o menu no meio */
     list-style-type: none;/* posiciona a 70px para baixo */
     padding: 0%;/* Para tirar todo espaçamento */
-    background-color: #000000;/* cor de fundo*/
+    background-color: #000000;
 }    
 
 #menu-h li{
@@ -39,14 +39,38 @@ body{
     color:#ffffff
 }
 
-#img-h {
-	
+#logo-h {
     position: absolute; 
 	left: 30px; 
 	top: 0px; 
 	}
 
+#wats-h{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+    position: absolute; 
+	right: 300px; 
+	top: 20px; 
 
+}
+
+
+#telefone-h{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    position: absolute;
+    right: 110px ;
+    top: 10px;
+}
+
+#telefone-h:hover{
+    border-bottom: 1px solid white; 
+
+}
 
 
    
