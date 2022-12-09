@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin:0 auto;/* para o site ficar centralizado */
+    padding: 0%;/* pra gente configurar nosso pading */
+    box-sizing: border-box;
+    font-family: 'Opens Sans', sans-serif;/* Fonte do site */
+}
+body{
+    
+    background-image: linear-gradient(to top,#cfe7f5,#ffffff);
+    background-attachment: fixed;
+}
+
+    #menu-h{
+    text-align: center; /* posicionar o menu no meio */
+    list-style-type: none;/* posiciona a 70px para baixo */
+    padding: 0%;/* Para tirar todo espaçamento */
+    background-color: #000000;/* cor de fundo*/
+}    
+
+#menu-h li{
+    display: inline;/* para ficar um do lado do outro*/
+    
+    
+}
+
+#menu-h li a{
+    color: white;/*Cor da letra */
+    padding: 27px;/* distância de cada palavra */
+    display: inline-block;
+    text-decoration: none;/* tirar a decoração */
+    transition: background .4s;
+}
+
+#menu-h li a:hover{
+    background-color: rgb(24,139,233);
+    color:#ffffff
+}
+
+#img-h {
+	
+    position: absolute; 
+	left: 30px; 
+	top: 0px; 
+	}
+
+
+
+
+   
+
+
+
+
+
+
+   
