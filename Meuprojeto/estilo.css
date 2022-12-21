@@ -13,36 +13,45 @@ body{
     background-attachment: fixed;
 }
 
-    #menu-h{
+    nav{
     text-align: center; /* posicionar o menu no meio */
     list-style-type: none;/* posiciona a 70px para baixo */
-    padding: 0%;/* Para tirar todo espaçamento */
+    padding: 15px;/* Para tirar todo espaçamento */
     background-color: #000000;
 }    
 
-#menu-h li{
+ul > li{
     display: inline;/* para ficar um do lado do outro*/
-    
+    text-decoration: none;
     
 }
 
-#menu-h li a{
+li > a {
     color: white;/*Cor da letra */
-    padding: 27px;/* distância de cada palavra */
+    padding: 15px;/* distância de cada palavra */
     display: inline-block;
     text-decoration: none;/* tirar a decoração */
     transition: background .4s;
 }
 
-#menu-h li a:hover{
-    background-color: rgb(24,139,233);
-    color:#ffffff
+
+li :hover {
+    /* background-color: rgb(24,139,233); */
+    color:rgb(24,139,233)
+    
 }
 
-#logo-h {
-    position: absolute; 
-	left: 30px; 
-	top: 0px; 
+button:hover{
+    color:rgb(24,139,233)
+}
+
+.logo{
+    width: 100px;
+    height: 30px;
+    background-size: 100px 64px;
+    position: absolute;
+    left: 50px;
+    top: 8px;
 	}
 
 #wats-h{
@@ -72,12 +81,151 @@ body{
 
 }
 
+body{
+    background-image: linear-gradient(to right, #DEDAD7,#CED6DF);
+}
 
-   
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #91817761;
+    width: 600px;
+    padding: 10px;
+    margin: 30px;
+}
+
+h1{
+    color: #918177;
+    text-align: center;
+    text-shadow: 1px 1px 2px #443c38ab ;
+}
+
+h2{
+    color: #918D77;
+ }
+
+p{
+    text-align: justify;
+}
+
+button{
+    background:transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    display: none;
+}
+
+ @media screen and (max-width: 1124px) {
+    ul > li{
+       display: flex;
+       align-items: flex-start;
+    }
+
+    
+
+    ul{
+        text-align: center;
+        margin: 0;
+
+    }
+
+    .logo{
+        width: 100px;
+        height: 80px;
+        background-size: 100px 64px;
+        position: absolute;
+        left: 50px;
+        top: 20px;
+        }
+
+        #telefone-h{
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            transition: background .4s;
+            position: absolute;
+            right: 110px ;
+            top: 21px;
+        }   
+
+        #wats-h{
+            color: white;
+            display: inline-block;
+            text-decoration: none;
+            transition: background .6s;
+            position: absolute; 
+            right: 300px; 
+            top: 29px; 
+        
+        }
+
+        #telefone-h:hover{
+            border-bottom: 1px solid white; 
+        
+        }        
+ }
+
+ @media screen and (max-width: 839px) {
+    #telefone-h{
+        display: none;
+    }
+
+    #wats-h{
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        transition: background .6s;
+        position: absolute; 
+        right: 100px; 
+        top: 29px; 
+    
+    }
+
+    #wats-h:hover{
+        border-bottom: 1px solid white; 
+
+    }
+    
+ }
+
+ @media screen and (max-width: 630px) {
+    #telefone-h{
+        display: none;
+    }
+
+    #wats-h{
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        transition: background .6s;
+        position: absolute; 
+        right: 52px; 
+        top: 29px; 
+    
+    }
+    
+  
+
+ /* @media screen and (max-width: 1277px) {
+    #wats-h {
+       display: none;
+    }
+ }
+
+ @media screen and (max-width: 1277px) {
+    #logo-h {
+       display: none;
+    } */
+ } */
+
+
+ 
 
 
 
 
-
-
-   
+    */
