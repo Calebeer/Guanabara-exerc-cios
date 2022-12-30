@@ -5,6 +5,7 @@ div{
     padding: 10px;
     transition-timing-function:ease ;
     transition-duration: 2s;
+    transition-delay: 1s;
 
 }
 
@@ -35,6 +36,9 @@ html{
     position: fixed;
     top: 10px;
     left: 100px;
+    transition-timing-function:ease ;
+    transition-duration: 2s;
+    transition-delay: 1s;
 
 }
 
