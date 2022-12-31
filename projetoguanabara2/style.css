@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:'idroid' ;
+    src: url('fonte/idroid.otf') format('opentype') ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@1,300;1,500&display=swap');
+
+:root{
+ --cor1:#c5ebd6; 
+ --cor2:#83E1AD;
+ --cor3:#3ddc84;
+ --cor4:#2fa866;
+ --cor5:#1a5c37;
+ --cor6:#063d1e;
+
+ --font-padrao:Arial, Verdana, Helvetica, sans-serif;
+ --font-destaque:'Bebas Neue', 'cursive';
+ --font-idroid:
+}
+
 body{
-    background-color: #c5ebd6;
+    background-color: ;
 }
