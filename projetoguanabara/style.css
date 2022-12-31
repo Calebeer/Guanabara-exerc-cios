@@ -19,7 +19,7 @@
 }
 
 header{
-    background-color: green;
+    background-image: linear-gradient(to top, #347405, #299505cc, #50c31fce);
     width: 100%;
     padding: 0;
     box-shadow: 0px 3px 10px #4646468a;
@@ -107,14 +107,82 @@ main{
     font-family: 'idroid';
     color: green;
     font-style: normal;
+    margin-top: 20px;
 }
 
 .fonte2{
     font-family: 'idroid';
     color: green;
     font-style: normal;
+    background-image: linear-gradient(to right, #99fd517e, #86fd5e81, #b5ea9f70);
 }
 
 .paragrafo{
     margin: 15px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: bold;
+    
 }
+
+.img{
+    text-align: center;
+
+}
+
+#nome{
+    color: green;
+    text-decoration: none;
+}
+
+.video{
+    padding: 10px;
+    background-color: #347405;
+    text-align: center;
+    
+}
+
+.container2{
+    width: 100%;
+    height: 450px;
+    background-color: #55c00963;
+    margin-top: 10px;
+}
+
+.container2-2{
+    background-color: rgb(4, 166, 4);
+    box-shadow: 0px 3px 10px #4646468a;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    
+    
+}
+
+.paragrafo1{
+   padding: 10px;
+}
+
+.lista{
+    padding: 30px;
+    
+    
+}
+
+.lista2{
+    display: none;
+    
+    
+}
+
+.paragrafo3{
+    padding: 10px;
+}
+
+
+
+
+
+
+
