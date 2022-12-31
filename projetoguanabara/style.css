@@ -21,8 +21,10 @@
 header{
     background-image: linear-gradient(to top, #347405, #299505cc, #50c31fce);
     width: 100%;
-    padding: 0;
+    
     box-shadow: 0px 3px 10px #4646468a;
+    position: fixed;
+    
 }
 
 .container{
@@ -49,7 +51,8 @@ header{
 }
 
 .nav-link:hover{
-    color: black;
+   
+    background-color: #48a407a7;
 }
 
 .texto1{
@@ -79,7 +82,10 @@ header{
     width: 900px;
     padding: 10px;
     margin: auto;
+    
 }
+
+
 
 /* .fundo{
    background-color:whitesmoke;
@@ -119,9 +125,10 @@ main{
 
 .paragrafo{
     margin: 15px;
-    font-size: 17px;
+    font-size: clamp(17px,18px);
     font-style: normal;
     font-weight: bold;
+
     
 }
 
@@ -152,7 +159,7 @@ main{
 .container2-2{
     background-color: rgb(4, 166, 4);
     box-shadow: 0px 3px 10px #4646468a;
-    border-radius: 4px;
+    border-radius: 7px 7px 7px;
     color: white;
     font-size: 15px;
     padding: 10px;
