@@ -107,7 +107,7 @@ html{
 
 .localizacao{
     color: #24252a;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center ;
     
 }
@@ -212,17 +212,34 @@ html{
 
 }
 
-@keyframes typing{
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-}
-
-p{
+.frase{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     font-size: 200%;
 }
 
+.video{
+    display: flex;
+    align-items: center;
 
+}
+
+.container-mid{
+    background-image: linear-gradient(to top, #023E73, #387CA6, #024873);
+    padding: 40px;
+}
+
+iframe{
+    padding: 100px;
+}
+
+.text-mid{
+    color: white;
+    font-size: 230%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#ca{
+    display: block;
+}
